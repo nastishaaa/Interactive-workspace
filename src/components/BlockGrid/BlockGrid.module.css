@@ -1,0 +1,11 @@
+.resetBtn{
+    background-color: firebrick;
+    color: #fff;
+}
+
+.btnContainer{
+    display: flex; 
+    justify-content: start; 
+    flex-direction: column;
+    margin: 0;
+}
