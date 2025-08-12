@@ -29,8 +29,6 @@ export default function BlockGrid() {
                 block.id === id ? { ...block, ...newProps } : block
             )
         );
-
-        localStorage.setItem('positions', JSON.stringify(positions));
     }
 
     const handleClick = (id) => {
