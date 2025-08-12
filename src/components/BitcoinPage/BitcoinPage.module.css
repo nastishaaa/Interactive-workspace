@@ -1,0 +1,67 @@
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.btnStart,
+.btnStop,
+.btnReset {
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btnStart {
+    background-color: darkolivegreen;
+}
+
+.btnStop {
+    background-color: darkred;
+}
+
+.btnReset {
+    background-color: darkorange;
+}
+
+.btnStart:hover {
+    background-color: olivedrab;
+    transform: translateY(-2px);
+}
+
+.btnStop:hover {
+    background-color: firebrick;
+    transform: translateY(-2px);
+}
+
+.btnReset:hover {
+    background-color: coral;
+    transform: translateY(-2px);
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .btnContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btnStart,
+    .btnStop,
+    .btnReset {
+        width: 100%;
+        max-width: 250px;
+    }
+}

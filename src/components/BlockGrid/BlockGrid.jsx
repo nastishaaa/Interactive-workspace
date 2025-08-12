@@ -4,11 +4,11 @@ import BlockItem from '../BlockItem/BlockItem';
 import s from './BlockGrid.module.css';
 
 const defaultBlocks = [
-    { id: 1, x: -320, y: 120, width: 300, height: 100, zIndex: 1, visible: true, color: '#ffb3ba' },
-    { id: 2, x: 0, y: 120, width: 300, height: 100, zIndex: 1, visible: true, color: '#baffc9' },
-    { id: 3, x: 320, y: 120, width: 300, height: 100, zIndex: 1, visible: true, color: '#bae1ff' },
-    { id: 4, x: -320, y: 240, width: 300, height: 100, zIndex: 1, visible: true, color: '#ffffba' },
-    { id: 5, x: 0, y: 240, width: 300, height: 100, zIndex: 1, visible: true, color: '#ffdfba' },
+    { id: 1, x: -320, y: 0, width: 300, height: 100, zIndex: 1, visible: true, color: '#ffb3ba' },
+    { id: 2, x: 0, y: 0, width: 300, height: 100, zIndex: 1, visible: true, color: '#baffc9' },
+    { id: 3, x: 320, y: 0, width: 300, height: 100, zIndex: 1, visible: true, color: '#bae1ff' },
+    { id: 4, x: -320, y: 120, width: 300, height: 100, zIndex: 1, visible: true, color: '#ffffba' },
+    { id: 5, x: 0, y: 120, width: 300, height: 100, zIndex: 1, visible: true, color: '#ffdfba' },
 ];
 
 export default function BlockGrid() {

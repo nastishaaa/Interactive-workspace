@@ -1,12 +1,7 @@
-# React + Vite
+# MyApp README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Використані зовнішні бібліотеки
 
-Currently, two official plugins are available:
+- **react-rnd** — бібліотека, яка дозволяє робити елементи перетягуваними (drag) та змінювати їх розмір (resize). Вона використовується для реалізації інтерактивних блоків, які можна рухати і масштабувати.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **react-router** та **react-router-dom** — бібліотеки для маршрутизації в React-додатку. Вони забезпечують можливість створення багатосторінкової навігації і керування URL у браузері.
